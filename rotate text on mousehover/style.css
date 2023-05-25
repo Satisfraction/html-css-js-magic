@@ -1,0 +1,29 @@
+body {
+    font-family: cursive;
+    background-color: darkorange;
+    color: aqua;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+  
+  .rotate {
+    position: relative;
+    color: aquamarine;
+    font-size: 25px;
+    filter: blur(2px) contrast(4);
+  }
+  
+  .rotate:hover {
+    animation: rotate 3s linear infinite;
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

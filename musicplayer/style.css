@@ -1,0 +1,75 @@
+/* Music Player */
+
+.player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.player-controls {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.player-button {
+    cursor: pointer;
+    margin: 0 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.play-button {
+    color: green;
+}
+
+.player-progress {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.player-timer {
+    font-size: 14px;
+    color: #333;
+    margin: 0 10px;
+}
+
+.player-slider {
+    width: 80%;
+    margin: 0 10px;
+    -webkit-appearance: none;
+    height: 10px;
+    background-color: #ddd;
+    outline: none;
+}
+
+.player-slider::-webkit-progress-bar {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+.player-slider::-webkit-progress-value {
+    background-color: green;
+    border-radius: 5px;
+}
+
+.player-song {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.player-song-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.player-song-artist {
+    font-size: 14px;
+    color: #333;
+}
