@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .disco {
+    font-size: 50px;
+    font-family: Impact, Charcoal, sans-serif;
+    color: white;
+    text-shadow: 0px 0px 10px #ff00ff, 0px 0px 15px #ff00ff, 0px 0px 20px #ff00ff, 0px 0px 25px #ff00ff, 0px 0px 30px #ff00ff, 0px 0px 35px #ff00ff, 0px 0px 40px #ff00ff;
+    animation: disco 1s linear infinite;
+  }
+  @keyframes disco {
+    0% { color: white; }
+    25% { color: #ff00cc; }
+    50% { color: #ffff00; }
+    75% { color: #00ff00; }
+    100% { color: white; }
+  }
