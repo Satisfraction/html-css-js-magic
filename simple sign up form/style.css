@@ -1,0 +1,62 @@
+.signup {
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: 1.5em;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f1f1f1;
+  }
+  
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 350px;
+    width: 300px;
+    flex-direction: column;
+    gap: 35px;
+    border-radius: 8px;
+    background: linear-gradient(to bottom right, #fff, #e3e3e3);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2), 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .inputBox {
+    position: relative;
+  }
+  
+  .inputBox span {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    transition: all 0.3s ease;
+    color: #000;
+  }
+  
+  .inputBox input:focus + span,
+  .inputBox input:valid + span {
+    top: -10px;
+    left: 5px;
+    font-size: 12px;
+    color: #03a9f4;
+  }
+  
+  .inputBox1 span {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .card {
+      width: 80%;
+    }
+  }
+  
