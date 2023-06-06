@@ -1,20 +1,25 @@
+/* Set the background color of the body element to black */
 body {
-    background-color: black;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+    background-color: black;          /* Black background color */
+    justify-content: center;          /* Center the content horizontally and vertically within the body element */
+    align-items: center;              /* Center the content horizontally and vertically within the body element */
+    display: flex;                    /* Set the display style property of the body element to flex */
   }
+
+  /* This CSS rule targets elements with class "disco" and applies the following properties: */
   .disco {
-    font-size: 50px;
-    font-family: Impact, Charcoal, sans-serif;
-    color: white;
-    text-shadow: 0px 0px 10px #ff00ff, 0px 0px 15px #ff00ff, 0px 0px 20px #ff00ff, 0px 0px 25px #ff00ff, 0px 0px 30px #ff00ff, 0px 0px 35px #ff00ff, 0px 0px 40px #ff00ff;
-    animation: disco 1s linear infinite;
-  }
+    font-size: 50px;                  /* Set the font size of the element to 50px */
+    font-family: Impact, Charcoal, sans-serif;    /* Set the font family of the element to Impact, Charcoal, sans-serif */
+    color: white;                      /* Sets the text color to white */
+    text-shadow: 0px 0px 10px #ff00ff, 0px 0px 15px #ff00ff, 0px 0px 20px #ff00ff, 0px 0px 25px #ff00ff, 0px 0px 30px #ff00ff, 0px 0px 35px #ff00ff, 0px 0px 40px #ff00ff;      /* Applies a text shadow effect with multiple layers of pink (#ff00ff) color and varying blur radius */
+    animation: disco 1s linear infinite;          /* Applies an animation named "disco" that lasts for 1 second, uses linear timing function, and repeats infinitely */
+  } 
+
+  /* This is a keyframe animation named "disco". It will animate an element's color property. */
   @keyframes disco {
-    0% { color: white; }
-    25% { color: #ff00cc; }
-    50% { color: #ffff00; }
-    75% { color: #00ff00; }
-    100% { color: white; }
+    0% { color: white; }              /* At 0%, the element's color will be white. */
+    25% { color: #ff00cc; }           /* At 25%, the element's color will be a bright pink. */
+    50% { color: #ffff00; }           /* At 50%, the element's color will be a bright yellow. */
+    75% { color: #00ff00; }           /* At 75%, the element's color will be a bright green. */
+    100% { color: white; }            /* At 100%, the element's color will be white again. */
   }
