@@ -7,14 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>color select and change</title>
     <link rel="stylesheet" href="styles.css">
-    
+
 
 </head>
 
 <body>
 
+    <!-- This is a div element that will be used to display the background color change. -->
     <div></div>
     <select onchange="bgChange(this.value)">
+        <!-- The following are option elements, each with a value and text content. The "selected" attribute is present on the first option to make it the default selected option. -->
         <option value="red" selected>red</option>
         <option value="blue">blue</option>
         <option value="green">green</option>
