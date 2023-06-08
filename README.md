@@ -6,7 +6,7 @@ Welcome to the HTML/CSS/JS Magic Code Snippet Library! This library contains a c
 ## Projects
 
 1. **Bild Auswahl**: Allows users to select an image file and display it on the webpage.
-   - [Bild Auswahl](https://github.com/Satisfraction/html-css-js-magic/tree/main/bild%20auswahl)
+   - [Bild Auswahl](https://github.com/Satisfraction/html-css-js-magic/tree/main/Bild%20Auswahl)
 
 2. **Card Interaction Animation**: Provides interactive card animations using HTML and CSS.
    - [Card Interaction Animation](https://github.com/Satisfraction/html-css-js-magic/tree/main/Card%20Interaction%20Animation)
