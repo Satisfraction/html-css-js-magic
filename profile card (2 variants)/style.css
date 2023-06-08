@@ -1,145 +1,274 @@
+/* This is a CSS block for styling a collection of cards */
 .card__collection {
+    /* Display the cards in a flexbox that wraps when it reaches the end of the line and centers them horizontally */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    /* Add a margin of 10px to the collection */
     margin: 10px;
 }
 
+/* This is the CSS block for each card within the collection */
 .card__collection .cards {
+    /* Set the width and height of each card */
     width: 300px;
     height: 400px;
+    /* Display the card as a block element */
     display: block;
+    /* Set the background size of the card to cover the entire element */
     background-size: cover;
+    /* Float the card to the left */
     float: left;
+    /* Add a border radius of 15px to the card */
     border-radius: 15px;
+    /* Position the card relative to its container */
     position: relative;
+    /* Hide any overflowing content on the card */
     overflow: hidden;
+    /* Set the background image of the card to its center */
     background-position: center;
+    /* Add a margin of 10px to the card */
     margin: 10px;
 }
 
+/* This CSS block is used to style a specific type of card within the collection */
 .card__collection .cards--two {
+    /* Position the card relative to its container */
     position: relative;
+    /* Hide the backface of the card when it's flipped */
     backface-visibility: hidden;
 }
 
+/* This CSS block is used to style the image within the specific type of card */
 .card__collection .cards--two .cards--two__img {
+    /* Position the image relative to its container */
     position: relative;
+    /* Set the height and width of the image to 100% of its container */
     height: 100%;
     width: 100%;
+    /* Add a transition effect when the image is transformed */
     transition: transform 0.6s ease;
 }
 
+/* When the user hovers over an element with the class "cards--two" inside an element with the class "card__collection", scale up the image inside the element with the class "cards--two__img" by 10% */
 .card__collection .cards--two:hover .cards--two__img {
     transform: scale(1.1);
 }
 
+/* Apply the following styles to the element with the class "cards--two__rect" inside an element with the class "card__collection" */
 .card__collection .cards--two__rect {
+    /* Position the element at the bottom-left corner of its parent */
     position: absolute;
     bottom: 0;
     left: 0;
+    /* Set the width to be 100% of the parent element's width */
     width: 100%;
+    /* Set the height to be 50% of the parent element's height */
     height: 50%;
+    /* Set the background color to be a semi-transparent black */
     background: rgba(0, 0, 0, 0.7);
+    /* Move the element down so it is not visible */
     transform: translateY(100%);
+    /* Apply a transition effect when the element's transform property changes */
     transition: transform 0.6s ease;
 }
 
+/* When the user hovers over an element with the class "cards--two" inside an element with the class "card__collection", move the element with the class "cards--two__rect" up so it becomes visible */
 .card__collection .cards--two:hover .cards--two__rect {
     transform: translateY(0);
 }
 
+/* Apply the following styles to the element with the class "cards--two__tri" inside an element with the class "card__collection" */
 .card__collection .cards--two__tri {
+    /* Position the element at the bottom-right corner of its parent */
     position: absolute;
     bottom: 0;
     right: 0;
+    /* Set the width and height to 0 */
     width: 0;
     height: 0;
+    /* Create a triangle shape using border styles */
     border-style: solid;
     border-width: 0 0 100px 100px;
     border-color: transparent transparent #000 transparent;
+    /* Apply a transition effect when the element's right property changes */
     transition: right 0.6s ease;
 }
 
+/* When the user hovers over an element with the class "cards--two" inside an element with the class "card__collection", move the element with the class "cards--two__tri" to the left so it becomes visible */
 .card__collection .cards--two:hover .cards--two__tri {
     right: -40%;
 }
 
+/* Apply the following styles to the element with the class "cards--two__text" inside an element with the class "card__collection" */
 .card__collection .cards--two__text {
+    /* Position the element in the center of its parent */
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    /* Capitalize the text */
     text-transform: capitalize;
+    /* Set the text color to white */
     color: #fff;
+    /* Set the font size to 20 pixels */
     font-size: 20px;
+    /* Set the z-index to 8 */
     z-index: 8;
+    /* Make the element invisible */
     opacity: 0;
+    /* Apply a transition effect when the element's opacity property changes */
     transition: opacity 0.6s ease;
 }
 
+/* When the mouse hovers over an element with the class "cards--two" inside an element with class "card__collection",
+   the following styles will be applied to the element with class "cards--two__text1": */
 .card__collection .cards--two:hover .cards--two__text1 {
     opacity: 1;
+    /* Make the element visible */
     position: absolute;
+    /* Position element absolutely within its parent element */
     left: 50%;
+    /* Position it horizontally at 50% of its parent element's width */
     transform: translateX(-50%);
+    /* Translate the element horizontally by -50% of its own width */
 }
 
+/* When the mouse hovers over an element with the class "cards--two" inside an element with class "card__collection",
+   the following styles will be applied to the element with class "cards--two__text2": */
 .card__collection .cards--two:hover .cards--two__text2 {
     opacity: 1;
+    /* Make the element visible */
     position: absolute;
+    /* Position element absolutely within its parent element */
     left: 50%;
+    /* Position it horizontally at 50% of its parent element's width */
     transform: translateX(-50%);
+    /* Translate the element horizontally by -50% of its own width */
 }
 
+/* When the mouse hovers over an element with the class "cards--two" inside an element with class "card__collection",
+   the following styles will be applied to the element with class "cards--two__text1": */
 .card__collection .cards--two:hover .cards--two__text1 {
     top: 5%;
+    /* Position it vertically 5% from the top of its parent element */
     font-weight: bold;
+    /* Make the font bold */
 }
 
+/* When the mouse hovers over an element with the class "cards--two" inside an element with class "card__collection",
+   the following styles will be applied to the element with class "cards--two__text2": */
 .card__collection .cards--two:hover .cards--two__text2 {
     bottom: 5%;
+    /* Position it vertically 5% from the bottom of its parent element */
     color: #fff;
+    /* Set the font color to white */
     font-weight: bold;
+    /* Make the font bold */
 }
 
+/* Apply the following styles to the element with class "cards--two__list": */
 .card__collection .cards--two__list {
     position: absolute;
+    /* Position element absolutely within its parent element */
     bottom: 100px;
+    /* Position it vertically 100 pixels from the bottom of its parent element */
     left: 50%;
+    /* Position it horizontally at 50% of its parent element's width */
     transform: translateX(-50%);
+    /* Translate the element horizontally by -50% of its own width */
     list-style: none;
+    /* Remove the bullet points from the list */
     margin: 0;
+    /* Remove the default margin */
     padding: 0;
+    /* Remove the default padding */
     opacity: 0;
+    /* Make the element invisible */
     transition: opacity 0.6s ease;
+    /* Add a transition effect to the opacity property */
     display: flex;
+    /* Use flexbox layout */
     justify-content: center;
+    /* Center the child elements horizontally */
     align-items: center;
+    /* Center the child elements vertically */
     flex-direction: column;
+    /* Stack the child elements vertically */
 }
 
-.card__collection .cards--two__list li {
-    margin-right: 10px;
-    font-size: 20px;
-    color: #fff;
-    opacity: 0.7;
-    transition: transform 0.6s ease;
-    transform: translateY(-20px);
-    background-color: rgba(255,255,255,0.5);
-    border-radius: 50%;
-    width: 100px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.card__collection .cards--two:hover .cards--two__list {
+/* When the mouse hovers over an element with the class "cards--two" inside an element with class "card__collection",
+   the following styles will be applied to the element with class "cards--two__text1": */
+.card__collection .cards--two:hover .cards--two__text1 {
     opacity: 1;
+    /* Make the element visible */
+    position: absolute;
+    /* Position element absolutely within its parent element */
+    left: 50%;
+    /* Position it horizontally at 50% of its parent element's width */
+    transform: translateX(-50%);
+    /* Translate the element horizontally by -50% of its own width */
 }
 
-.card__collection .cards--two:hover .cards--two__list li {
-    transform: translateY(0);
+/* When the mouse hovers over an element with the class "cards--two" inside an element with class "card__collection",
+   the following styles will be applied to the element with class "cards--two__text2": */
+.card__collection .cards--two:hover .cards--two__text2 {
+    opacity: 1;
+    /* Make the element visible */
+    position: absolute;
+    /* Position element absolutely within its parent element */
+    left: 50%;
+    /* Position it horizontally at 50% of its parent element's width */
+    transform: translateX(-50%);
+    /* Translate the element horizontally by -50% of its own width */
 }
 
+/* When the mouse hovers over an element with the class "cards--two" inside an element with class "card__collection",
+   the following styles will be applied to the element with class "cards--two__text1": */
+.card__collection .cards--two:hover .cards--two__text1 {
+    top: 5%;
+    /* Position it vertically 5% from the top of its parent element */
+    font-weight: bold;
+    /* Make the font bold */
+}
+
+/* When the mouse hovers over an element with the class "cards--two" inside an element with class "card__collection",
+   the following styles will be applied to the element with class "cards--two__text2": */
+.card__collection .cards--two:hover .cards--two__text2 {
+    bottom: 5%;
+    /* Position it vertically 5% from the bottom of its parent element */
+    color: #fff;
+    /* Set the font color to white */
+    font-weight: bold;
+    /* Make the font bold */
+}
+
+/* Apply the following styles to the element with class "cards--two__list": */
+.card__collection .cards--two__list {
+    position: absolute;
+    /* Position element absolutely within its parent element */
+    bottom: 100px;
+    /* Position it vertically 100 pixels from the bottom of its parent element */
+    left: 50%;
+    /* Position it horizontally at 50% of its parent element's width */
+    transform: translateX(-50%);
+    /* Translate the element horizontally by -50% of its own width */
+    list-style: none;
+    /* Remove the bullet points from the list */
+    margin: 0;
+    /* Remove the default margin */
+    padding: 0;
+    /* Remove the default padding */
+    opacity: 0;
+    /* Make the element invisible */
+    transition: opacity 0.6s ease;
+    /* Add a transition effect to the opacity property */
+    display: flex;
+    /* Use flexbox layout */
+    justify-content: center;
+    /* Center the child elements horizontally */
+    align-items: center;
+    /* Center the child elements vertically */
+    flex-direction: column;
+    /* Stack the child elements vertically */
+}
