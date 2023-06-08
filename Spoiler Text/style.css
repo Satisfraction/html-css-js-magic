@@ -1,0 +1,39 @@
+/* This style sets up a flex container with a column layout and centers its items. */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* This style sets up the look of a paragraph. */
+p {
+    /* This allows the paragraph to be displayed inline with other elements. */
+    display: inline;
+
+    /* This sets the color of the text in the paragraph. */
+    color: #cccccc;
+
+    /* This sets up a gradient background for the paragraph. */
+    background-image: linear-gradient(#cccccc, #cccccc);
+
+    /* This makes the gradient background not repeat. */
+    background-repeat: no-repeat;
+
+    /* This positions the gradient background on the right side of the paragraph. */
+    background-position: right;
+
+    /* This sets the size of the gradient background. */
+    background-size: 100% 100%;
+
+    /* This sets up a transition for the background size and color changes. */
+    transition: background-size 1000ms, color 700ms;
+}
+
+/* This style changes the look of the paragraph when the user hovers over it. */
+p:hover {
+    /* This changes the size of the gradient background. */
+    background-size: 0% 100%;
+
+    /* This changes the color of the text in the paragraph. */
+    color: #121212;
+}
