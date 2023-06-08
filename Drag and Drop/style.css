@@ -1,0 +1,19 @@
+/* This class defines a box element with the following properties: */
+.box {
+    display: inline-block;          /* The box element will be displayed inline */
+    position: relative;             /* Positioning is relative to its parent */
+    height: 100px;                  /* The box will have a height of 100px */
+    width: 100px;                   /* The box will have a width of 100px */
+    border-radius: 12px;             /* The border has a radius of 12 pixels, giving it rounded corners */
+    border: 2px solid black;        /* The border is 2 pixels thick and black in color */
+}
+
+/* Selects all elements with the class "box" and the class "image" */
+.box .image {
+    height: 100%;                   /* The image will have a height of 100% */
+    width: 100%;                    /* The image will have a width of 100% */
+    border-radius: 10px;            /* The border has a radius of 10 pixels, giving it rounded corners */
+    background-size: cover;         /* Sets the size of the background image to cover the entire element */
+    background-position: center;    /* Sets the position of the background image to the center of the element */
+    background-image: url('https://source.unsplash.com/random');        /* Sets the background image of the element to a random image from Unsplash */
+}

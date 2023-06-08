@@ -1,0 +1,106 @@
+/* Set the background color to a light gray */
+body {
+    background-color: #515050;          /* Set the background color to a light gray */
+    font-family: 'Roboto', sans-serif;      /* Set the font family to 'Roboto', sans-serif */
+    font-size: 16px;                     /* Set the font size to 16 pixels */
+    color: #4f8b37;                 /* Set the text color to a shade of green */
+    display: flex;                       /* Set the contents of the body to be in a flexbox */
+    flex-direction: column;           /* Set the contents of the body to be in a vertical column */
+    align-items: center;                 /* Set the contents of the body to be centered */
+    justify-content: center;             /* Set the contents of the body to be centered */
+    height: 100vh;                       /* Set the height of the body to 100% of the viewport height */
+}   
+
+/* Create a container for a profile card */
+.profile-card {
+    position: relative;                  /* Set the position of the container to be relative */
+    width: 250px;                        /* Set the width of the container to 250px */
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);  /* Add a box shadow to the container */
+}
+
+/* Create a container for the front of the profile card */
+.front-card {
+    position: relative;                  /* Set the position of the container to be relative */
+}
+
+/* Style the profile picture */
+.profile-pic {
+    max-width: 100%;                    /* Set the width of the profile picture to 100% of the container */
+    height: auto;                       /* Set the height of the profile picture to 100% of the container */
+    transition: transform 0.3s ease-out;    /* Add a transition effect to the profile picture */
+}
+
+/* This class defines the styling for a profile info box */
+.profile-info {
+    padding: 10px;          /* sets the padding around the content in the box */
+    text-align: center;     /* centers the text in the box */
+    background-color: #f2f2f2;      /* sets the background color of the box */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);        /* applies a shadow to the box */
+    position: absolute;     /* sets the position type */
+    bottom: -80px;          /* sets the position of the box relative to the bottom */
+    left: 50%;             /* sets the position of the box relative to the left */
+    transform: translateX(-50%);    /* centers the box horizontally */
+    width: 120px;           /* sets the width of the box */
+    border-radius: 5px;     /* sets the border radius of the box */
+    opacity: 0;         /* sets the initial opacity of the box to 0 */
+    transition: all 0.3s ease-out;      /* sets a transition effect for all properties with a duration of 0.3s and an ease-out timing function */
+}
+
+/* This block defines the behavior of the profile pic when hovered */
+.front-card:hover .profile-pic {
+    transform: scale(1.2);      /* scales the profile pic to 1.2 times its original size */
+}
+
+/* This block defines the behavior of the profile info box when hovered */
+.front-card:hover .profile-info {
+    bottom: -120px;     /* moves the box up relative to the bottom */
+    opacity: 1;         /* sets the opacity of the box to 1 */
+}
+
+/* Create a container for the back of the profile card */
+.back-card {
+    position: absolute;     /* sets the position type */
+    top: 0;               /* sets the position of the box relative to the top */
+    left: 0;               /* sets the position of the box relative to the left */
+    width: 150px;          /* sets the width of the box to 150px */
+    height: 100%;          /* sets the height of the box to 100% of the viewport height */
+    background-color: #f2f2f2;      /* sets the background color of the box */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);    /* applies a shadow to the box */
+    transform: translateX(-100%);        /* centers the box horizontally */
+    transition: transform 0.3s ease-out;    /* sets a transition effect for all properties with a duration of 0.3s and an ease-out timing function */
+    overflow: hidden;        /* sets the overflow of the box to hidden */
+    opacity: 0;         /* sets the initial opacity of the box to 0 */
+}
+
+/* This block defines the behavior of the back of the profile card when hovered */
+.profile-card:hover .back-card {
+    transform: translateX(0);    /* centers the box horizontally */
+    opacity: 1;         /* sets the opacity of the box to 1 */
+}
+
+/* Create a list for the back of the profile card */
+.back-card ul {
+    list-style: none;     /* removes the bullet points from the list */
+    padding: 0;           /* removes the padding from the list
+    margin: 0;           /* removes the margin from the list */
+}
+
+/* Create a list item for the back of the profile card */
+.back-card li {
+    margin: 10px 0;         /* sets the margin of the list item to 10px */
+    text-align: center;     /* centers the text in the list item */
+}
+
+/* Create a link for the back of the profile card */
+.back-card a {
+    display: block;         /* sets the display of the link to block */
+    color: #333;           /* sets the color of the link */
+    text-decoration: none;  /* removes the underline from the link */
+    font-size: 14px;        /* sets the font size of the link */
+}
+
+/* Create an icon for the back of the profile card */
+.back-card i {
+    font-size: 18px;        /* sets the font size of the icon */
+    margin-bottom: 5px;     /* sets the margin of the icon to 5px */
+}

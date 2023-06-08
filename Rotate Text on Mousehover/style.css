@@ -1,0 +1,44 @@
+/* The following CSS applies to the entire HTML body */
+body {
+  /* Set the font family to cursive */
+  font-family: cursive;
+  /* Set the background color to dark orange */
+  background-color: darkorange;
+  /* Set the text color to aqua */
+  color: aqua;
+  /* Set the minimum height of the body to the full viewport height */
+  min-height: 100vh;
+  /* Center the content both vertically and horizontally */
+  display: grid;
+  place-items: center;
+}
+
+/* The following CSS applies to any element with the class 'rotate' */
+.rotate {
+  /* Set the position to relative */
+  position: relative;
+  /* Set the text color to aquamarine */
+  color: aquamarine;
+  /* Set the font size to 25 pixels */
+  font-size: 25px;
+  /* Apply a blur and contrast filter to the element */
+  filter: blur(2px) contrast(4);
+}
+
+/* The following CSS applies to any element with the class 'rotate' when it is hovered over */
+.rotate:hover {
+  /* Apply a 3 second linear animation to the element, causing it to rotate infinitely */
+  animation: rotate 3s linear infinite;
+}
+
+/* Define a keyframe animation called 'rotate' */
+@keyframes rotate {
+  /* Define the starting point of the animation */
+  from {
+    transform: rotate(0deg);
+  }
+  /* Define the ending point of the animation */
+  to {
+    transform: rotate(360deg);
+  }
+}

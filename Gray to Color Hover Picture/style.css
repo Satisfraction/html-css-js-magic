@@ -1,0 +1,24 @@
+/* Defines a class called "wrapper" which will be used to style an element with a circular shape and a border */
+.wrapper {
+    height: 220px;              /* Sets the height of the element to 220 pixels */
+    width: 220px;               /* Sets the width of the element to 220 pixels */
+    border-radius: 50%;         /* Sets the border radius of the <img> element to 50%, making it circular */
+    overflow: hidden;           /* Hides any content that overflows the element */
+    border: 6px solid gray;     /* Sets the border of the element to 6 pixels wide and gray in color */
+}
+
+/* Styles any <img> elements that are children of an element with the "wrapper" class */
+.wrapper img {
+    height: 100%;               /* Sets the height of the <img> element to 100%, so that it fills the circular parent element */
+    width: 100%;                /* Sets the width of the <img> element to 100%, so that it fills the circular parent element */
+    border-radius: 50%;          /* Sets the border radius of the <img> element to 50%, making it circular */
+    filter: grayscale(100%);       /* Applies a filter to grayscale the image 100% */
+    transition: 0.5s ease;      /* Adds a transition effect that will last for 0.5 seconds */
+    cursor: pointer;             /* Changes the cursor to a pointer on hover */
+}
+
+/* Styles any <img> elements that are children of an element with the "wrapper" class and are being hovered over */
+.wrapper img:hover {
+    transform: scale(1.3);      /* Scales the size of the <img> element up by 1.3 times */
+    filter: grayscale(0%);       /* Removes the grayscale filter from the image */
+}

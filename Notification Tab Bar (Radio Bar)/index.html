@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio Bar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- This is a container div which will hold the entire radio bar -->
+    <div class="container">
+        <!-- This is the radio bar, which will contain the tabs -->
+        <div class="tabs radio-bar">
+            <!-- This is the first tab, which is checked by default -->
+            <input type="radio" id="radio-1" name="tabs" checked />
+            <!-- This is the label for the first tab -->
+            <label class="tab" for="radio-1">
+                Upcoming<span class="notification"></span>
+            </label>
+            <!-- This is the second tab -->
+            <input type="radio" id="radio-2" name="tabs" />
+            <!-- This is the label for the second tab -->
+            <label class="tab" for="radio-2">Completed</label>
+            <!-- This is the third tab -->
+            <input type="radio" id="radio-3" name="tabs" />
+            <!-- This is the label for the third tab -->
+            <label class="tab" for="radio-3">Missing</label>
+            <!-- This is the glider, which slides over to indicate which tab is selected -->
+            <span class="glider"></span>
+        </div>
+    </div>
+
+</body>
+
+</html>
