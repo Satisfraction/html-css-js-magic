@@ -1,40 +1,65 @@
+/* This CSS defines a container for the typing animation */
 .typing-container {
     position: fixed;
+    /* Set the position of the container to fixed */
     top: 0;
+    /* Set the distance of the container from the top of the page to 0 */
     left: 0;
+    /* Set the distance of the container from the left of the page to 0 */
     width: 100%;
+    /* Set the width of the container to 100% of the page */
     height: 100%;
+    /* Set the height of the container to 100% of the page */
     background: linear-gradient(to bottom right, #4b6cb7, #182848);
-  }  
-
-.container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }  
-
-.typing {
-    width: 33ch;
-    float: left;
-    animation: typing 2s steps(22, end), blink .5s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid;
-    font-family: monospace;
-    font-size: 2em;
-    color: rgb(14, 247, 255);
+    /* Set the background of the container to a linear gradient */
 }
 
+/* This CSS defines the container for the typing element */
+.container {
+    position: absolute;
+    /* Set the position of the container to absolute */
+    top: 50%;
+    /* Set the distance of the container from the top of the page to 50% */
+    left: 50%;
+    /* Set the distance of the container from the left of the page to 50% */
+    transform: translate(-50%, -50%);
+    /* Translate the container to center it vertically and horizontally */
+}
+
+/* This CSS defines the typing element */
+.typing {
+    width: 33ch;
+    /* Set the width of the typing element to 33 characters */
+    float: left;
+    /* Float the typing element to the left */
+    animation: typing 2s steps(22, end), blink .5s step-end infinite alternate;
+    /* Set the animation of the typing element */
+    white-space: nowrap;
+    /* Set the white-space of the typing element to nowrap */
+    overflow: hidden;
+    /* Set the overflow of the typing element to hidden */
+    border-right: 3px solid;
+    /* Set the border of the typing element to a 3px solid line on the right side */
+    font-family: monospace;
+    /* Set the font family of the typing element to monospace */
+    font-size: 2em;
+    /* Set the font size of the typing element to 2em */
+    color: rgb(14, 247, 255);
+    /* Set the color of the typing element to a shade of blue */
+}
+
+/* This CSS defines the typing animation */
 @keyframes typing {
     from {
         width: 0
+            /* Set the width of the typing element to 0 */
     }
 }
 
+/* This CSS defines the blink animation */
 @keyframes blink {
     50% {
         border-color: transparent
+            /* Set the border color of the typing element to transparent at 50% of the animation */
     }
 }
-
