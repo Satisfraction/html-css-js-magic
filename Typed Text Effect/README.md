@@ -25,4 +25,4 @@ This project uses modern CSS features and should be compatible with most modern 
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This code is released under the [MIT License](LICENSE). Feel free to use, modify, and distribute it as needed.
