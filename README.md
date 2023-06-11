@@ -65,6 +65,9 @@ Welcome to the HTML/CSS/JS Magic Code Snippet Library! This library contains a c
 20. **Spoiler Text**: Demonstrates a hidden Spoiler Text using HTML and CSS.
     - [Spoiler Text](https://github.com/Satisfraction/html-css-js-magic/tree/main/Spoiler%20Text)
 
+21. **Example Website**: Demonstrates an Example Website to use and modify by your needs.
+    - [Example Website](https://github.com/Satisfraction/html-css-js-magic/tree/main/Example%20Website)
+
 Feel free to explore each project's documentation to learn more about their features, usage instructions, dependencies, and licensing.
 
 ## License
