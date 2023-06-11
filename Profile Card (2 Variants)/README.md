@@ -20,4 +20,4 @@ This project showcases two variants of profile cards using HTML and CSS.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This code is released under the [MIT License](LICENSE). Feel free to modify and use it according to your needs.
