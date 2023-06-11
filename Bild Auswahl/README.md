@@ -36,4 +36,4 @@ The JavaScript file (`script.js`) handles the image selection functionality. Whe
 
 ## License
 
-This code is released under the [MIT License](https://github.com/Satisfraction/html-css-js-magic/blob/main/LICENSE). Feel free to modify and use it according to your needs.
+This code is released under the [MIT License](LICENSE). Feel free to use, modify, and distribute it as needed.
