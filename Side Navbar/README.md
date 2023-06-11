@@ -31,4 +31,4 @@ Make sure to include the Font Awesome CSS file in your HTML file if you haven't 
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This code is released under the [MIT License](LICENSE). Feel free to use, modify, and distribute it as needed.
