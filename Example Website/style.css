@@ -1,0 +1,99 @@
+/* Set CSS styles for the header */
+header {
+    background-color: #333;  /* Set the background color to dark gray */
+    color: white;  /* Set the text color to white */
+    padding: 20px;  /* Add padding to the header */
+  }
+  
+  /* Set CSS styles for the headline */
+  .headline {
+    display: flex;  /* Display the headline in a flex container */
+    align-items: center;  /* Center the headline vertically inside the flex container */
+  }
+  
+  /* Set CSS styles for the h1 element */
+  h1 {
+    margin: 0;  /* Remove the default margin for the h1 element */
+  }
+  
+  /* Set CSS styles for the navbar */
+  .navbar {
+    display: flex;  /* Display the navbar in a flex container */
+    justify-content: flex-end;  /* Align the navbar to the right side of the container */
+  }
+  
+  /* Set CSS styles for the unordered list inside the nav element */
+  nav ul {
+    list-style: none;  /* Remove the default list-style */
+    margin: 0;  /* Remove any margin */
+    padding: 0;  /* Remove any padding */
+  }
+  
+  /* Set CSS styles for the list items inside the nav element */
+  nav li {
+    display: inline-block;  /* Display the list items side-by-side */
+    margin-left: 20px;  /* Add a margin to the left of each list item */
+  }
+  
+  /* Remove the left margin from the first list item inside the nav element */
+  nav li:first-child {
+    margin-left: 0;
+  }
+  
+  /* Set CSS styles for the links inside the nav element */
+  nav a {
+    color: white;  /* Set the text color to white */
+    text-decoration: none;  /* Remove the default text decoration */
+  }
+  
+  
+/* This is the CSS for the main content section */
+main {
+    /* Add padding of 20 pixels to the main content section */
+    padding: 20px;
+  }
+  
+  /* This is the CSS class for the welcome message */
+  .welcome {
+    /* Center align the text in the welcome message */
+    text-align: center;
+    /* Set the font size of the welcome message to 18 pixels */
+    font-size: 18px;
+  }
+  
+  /* This is the CSS class for the jumping animation */
+  .jump {
+    /* Apply the jump animation with a duration of 0.5 seconds and ease timing function */
+    animation: jump 0.5s ease;
+  }
+  
+  /* This is the keyframe animation for the jumping animation */
+  @keyframes jump {
+    /* Set the transform property to translate the element vertically */
+    0% {
+      transform: translateY(0);
+    }
+    /* Set the transform property to translate the element 10 pixels up */
+    50% {
+      transform: translateY(-10px);
+    }
+    /* Set the transform property to translate the element back to its original position */
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  
+  /* This is the CSS for the footer section */
+  footer {
+    /* Set the background color of the footer to dark gray */
+    background-color: #333;
+    /* Set the text color of the footer to white */
+    color: white;
+    /* Add padding of 20 pixels to the footer section */
+    padding: 20px;
+    /* Center align the text in the footer */
+    text-align: center;
+  }
+  
+  
