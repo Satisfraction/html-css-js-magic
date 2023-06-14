@@ -1,0 +1,81 @@
+/* Media query for screens with a width of less than or equal to 600px */
+@media only screen and (max-width: 600px) {
+    /* Styles for elements when the screen width is less than or equal to 600px */
+    body {
+        font-size: 16px;    /* Set the font size to 16px */
+    }
+
+    h1 {
+        font-size: 2em;    /* Set the font size to 2em */
+    }
+
+    p {
+        font-size: 1em;    /* Set the font size to 1em */
+    }
+}
+
+/* Container class for flexbox centering and full viewport height */
+.container {
+    display: flex;        /* Set the display to flex */
+    justify-content: center;    /* Set the justify-content to center */
+    align-items: center;    /* Set the align-items to center */
+    height: 100vh;        /* Set the height to 100vh */
+}
+
+/* Drop-down class with a border, shadow, padding, margin, and background color */
+.dropdown {
+    position: relative;    /* Set the position to relative */
+    border: 1px solid rgb(255, 0, 0);   /* Set the border to 1px solid red */
+    box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.5);   /* Set the box-shadow to 0px 0px 10px rgba(255, 0, 0, 0.5) */
+    border-radius: 5px;   /* Set the border-radius to 5px */
+    padding: 10px;    /* Set the padding to 10px */
+    margin: 10px;    /* Set the margin to 10px */
+    justify-content: center;    /* Set the justify-content to center */
+    align-items: center;    /* Set the align-items to center */
+    background-color: aqua;    /* Set the background-color to aqua */
+}
+
+/* Button class for the dropdown with padding, background color, text color, border, border radius, cursor, margin, and flexbox centering */
+.dropdown-button {
+    padding: 10px;    /* Set the padding to 10px */
+    background-color: gold;    /* Set the background-color to gold */
+    color: #fff;    /* Set the color to #fff */
+    border: none;    /* Set the border to none */
+    border-radius: 5px;    /* Set the border-radius to 5px */
+    cursor: pointer;    /* Set the cursor to pointer */
+    margin: 10px;    /* Set the margin to 10px */
+    justify-content: center;    /* Set the justify-content to center */
+    align-items: center;    /* Set the align-items to center */
+}
+
+/* Content class for the dropdown with absolute positioning, background color, minimum width, box shadow, z-index, and display set to none */
+.dropdown-content {
+    position: absolute;    /* Set the position to absolute */
+    top: 100%;        /* Set the top to 100% */
+    left: 0;        /* Set the left to 0 */
+    background-color: #f9f9f9;    /* Set the background-color to #f9f9f9 */
+    min-width: 160px;    /* Set the min-width to 160px */
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);    /* Set the box-shadow to 0px 8px 16px 0px rgba(0, 0, 0, 0.2) */
+    z-index: 1;    /* Set the z-index to 1 */
+    display: none;    /* Set the display to none */
+}
+
+/* Anchor tag styles for the dropdown content with color, padding, text decoration, display set to block, and cursor set to pointer */
+.dropdown-content a {
+    color: black;    /* Set the color to black */
+    padding: 12px 16px;    /* Set the padding to 12px 16px */
+    text-decoration: none;    /* Set the text-decoration to none */
+    display: block;    /* Set the display to block */
+    cursor: pointer;    /* Set the cursor to pointer */
+}
+
+/* Hover effect for the anchor tags in the dropdown content */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;    /* Set the background-color to #f1f1f1 */
+}
+
+/* Show class with display set to block for the dropdown content when it is opened */
+.show {
+    display: block;    /* Set the display to block */
+}
+
