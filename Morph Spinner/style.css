@@ -1,0 +1,33 @@
+body {
+    text-align: center;     /*Centers the text on the page*/
+}
+
+.container {
+    display: flex;         /*Creates a flex container*/
+    justify-content: center;        /*Centers the container on the page*/
+    align-items: center;          /*Centers the container on the page*/
+}
+
+.container p {
+    margin-left: 10px;    /*Moves the text to the left*/
+  }  
+
+.spinner {
+    display: inline-block;    /*Creates a block element*/
+    width: 20px;              /*Sets the width of the spinner*/
+    height: 20px;             /*Sets the height of the spinner*/
+    animation: morph 2.5s infinite; /*Sets the animation for the spinner*/
+}   
+
+@keyframes morph {            /*Sets the animation to morph*/
+    0%, 100% {                /*Sets the animation to 0% and 100%*/
+        border-radius: 50%;    /*Sets the border radius to 50%*/
+        transform: rotate(0deg);    /*Sets the transform to rotate 0deg*/
+        background-color: lime;    /*Sets the background color to lime*/
+    }
+    50% {                    /*Sets the animation to 50%*/
+        border-radius: 0%;    /*Sets the border radius to 0%*/
+        transform: rotate(180deg);    /*Sets the transform to rotate 180deg*/
+        background-color: red;    /*Sets the background color to red*/
+    }
+}
