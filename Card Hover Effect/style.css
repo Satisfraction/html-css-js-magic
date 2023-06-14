@@ -1,0 +1,135 @@
+/* Define a container that will hold the cards and center its content vertically and horizontally */
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    flex-direction: column; /* Stack the cards vertically */
+    gap: 10px; /* Add spacing between the cards */
+}
+
+/* Define the style for each card in the container */
+.container .card {
+    position: relative; /* Position the card relative to its normal position */
+    width: 500px; /* Set the width of the card */
+    height: 230px; /* Set the height of the card */
+    padding: 15px; /* Add padding to the card */
+    background: linear-gradient(60deg, #151516 0%, #1d2229 100%); /* Add a background gradient to the card */
+    overflow: hidden; /* Hide the overflow from the card */
+    margin-bottom: 15px; /* Add margin to the bottom of the card */
+    border-radius: 20px; /* Add a border radius to the card */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Add a box shadow to the card */
+}
+
+/* Define the style for the heading element inside each card */
+.container .card h2 {
+    z-index: 99; /* Set the stacking order of the element */
+    position: absolute; /* Position the element absolutely */
+    bottom: 25px; /* Set the distance from the bottom */
+    right: 130px; /* Set the distance from the right */
+    font-size: 50px; /* Set the font size */
+    font-weight: 700; /* Set the font weight */
+    color: #fff; /* Set the text color */
+    pointer-events: none; /* Disable pointer events for the element */
+    transition: 0.2s ease; /* Add a transition effect to the element */
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Add a text shadow to the element */
+}
+
+/* Define the style for the paragraph element inside each card */
+.container .card p {
+    z-index: 99; /* Set the stacking order of the element */
+    position: absolute; /* Position the element absolutely */
+    bottom: 30px; /* Set the distance from the bottom */
+    right: 130px; /* Set the distance from the right */
+    width: 150px; /* Set the width of the element */
+    color: #1d2229; /* Set the text color */
+    opacity: 0; /* Make the element transparent */
+    font-size: 15px; /* Set the font size */
+    text-align: right; /* Align the text to the right */
+    letter-spacing: 1px; /* Add letter spacing */
+    transition: 0.2s ease; /* Add a transition effect to the element */
+}
+
+/* This block styles the span element inside a card container */
+.container .card span {
+    z-index: 99;
+    position: absolute; /* position the element absolutely */
+    top: 60px; /* distance from the top of the parent element */
+    right: 35px; /* distance from the right of the parent element */
+    color: #fff; /* text color */
+    font-size: 12px; /* font size of the text */
+    letter-spacing: 1px; /* letter spacing of the text */
+    writing-mode: vertical-rl; /* text orientation */
+    transition: 0.2s ease; /* transition effect on hover */
+    opacity: 0.7; /* opacity of the text */
+}
+
+/* This block styles the image inside a card container */
+.container .card .pic {
+    z-index: 100;
+    width: 395px; /* width of the image */
+    height: 200px; /* height of the image */
+    background-image: url(https://source.unsplash.com/random); /* background image of the container */
+    background-size: cover; /* cover the entire container with the image */
+    border-radius: 12px; /* rounded corners of the container */
+    filter: grayscale(100%); /* grayscale filter applied to the image */
+    transition: 0.3s ease; /* transition effect on hover */
+}
+
+/* This block styles the button inside a card container */
+.container .card button {
+    position: absolute; /* position the element absolutely */
+    right: 30px; /* distance from the right of the parent element */
+    bottom: 40px; /* distance from the bottom of the parent element */
+    width: 30px; /* width of the button */
+    height: 30px; /* height of the button */
+    background-color: #26c3a1; /* background color of the button */
+    border: none; /* no border */
+    cursor: pointer; /* change cursor on hover */
+    outline: none; /* no outline */
+    opacity: 1; /* opacity of the button */
+    transition: 0.3s ease; /* transition effect on hover */
+}
+
+/* When a user hovers over a .card element within a .container element, perform the following animations */
+.container .card:hover button {
+    transform: scale(16.5); /* Scale up the button to 16.5 times its original size */
+    opacity: 0.5; /* Set the opacity of the button to 0.5 */
+}
+
+.container .card:hover h2 {
+    bottom: 80px; /* Move the heading 80 pixels down from its original position */
+    right: 50px; /* Move the heading 50 pixels to the right of its original position */
+}
+
+.container .card:hover p {
+    opacity: 1; /* Set the opacity of the paragraph element to 1 */
+    right: 60px; /* Move the paragraph element 60 pixels to the right of its original position */
+}
+
+.container .card:hover span {
+    opacity: 1; /* Set the opacity of the span element to 1 */
+    top: 80px; /* Move the span element 80 pixels down from its original position */
+}
+
+.container .card:hover .pic {
+    filter: grayscale(0); /* Remove grayscale from the image */
+    width: 470px; /* Set the width of the image to 470 pixels */
+}
+
+/* Set the background image of the .pic element within a .card2 element to a random image from Unsplash */
+.container .card2 .pic {
+    background-image: url(https://source.unsplash.com/random);
+    transition: 0.3s ease; /* Set a smooth transition for any changes made to this element */
+}
+
+.container .card2 button {
+    background-color: #772a9b; /* Set the background color of the button to a shade of purple */
+}
+
+.container .card2 p {
+    color: #fff; /* Set the font color of the paragraph element to white */
+    font-size: 15px; /* Set the font size of the paragraph element to 15 pixels */
+    letter-spacing: 1px; /* Set the letter spacing of the paragraph element to 1 pixel */
+}
