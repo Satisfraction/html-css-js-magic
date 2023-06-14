@@ -68,6 +68,19 @@ Welcome to the HTML/CSS/JS Magic Code Snippet Library! This library contains a c
 21. **Example Website**: Demonstrates an Example Website to use and modify by your needs.
     - [Example Website](https://github.com/Satisfraction/html-css-js-magic/tree/main/Example%20Website)
 
+22. **Card Hover Effect**: Showcases a profile card in 2 designs with an hover effect using HTML and CSS.
+    - [Example Website](https://github.com/Satisfraction/html-css-js-magic/tree/main/Card%20Hover%20Effect)
+
+23. **Color Chooser Dropdown**: Demonstrates an Button that can change the Background-Color of the website to use and modify by your needs.
+    - [Example Website](https://github.com/Satisfraction/html-css-js-magic/tree/main/Color%20Chooser%20Dropdown)
+
+24. **Morph Spinner**: Demonstrates an an example of a morph spinner with a loading message to use and modify by your needs.
+    - [Example Website](https://github.com/Satisfraction/html-css-js-magic/tree/main/Morph%20Spinner)
+
+25. **Profile Card v3**: Demonstrates the structure and content of a profile card. It includes a profile picture, the person's name, 
+    job title, a brief description about them, social media icons, and a button to toggle the visibility of the description. to use and modify by your needs.
+    - [Example Website](https://github.com/Satisfraction/html-css-js-magic/tree/main/Profile%20Card%20v3)
+
 Feel free to explore each project's documentation to learn more about their features, usage instructions, dependencies, and licensing.
 
 ## License
