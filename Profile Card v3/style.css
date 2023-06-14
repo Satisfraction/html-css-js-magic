@@ -1,0 +1,123 @@
+/* Set the font family and size for the entire page */
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    /* Set the background color to a light gray */
+    background-color: #f9f9f9;
+    /* Center all content vertically and horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Set the height of the page to 100% of the viewport height */
+    height: 100vh;
+}
+
+/* Style the card element */
+.card {
+    /* Set the background color to white */
+    background-color: #fff;
+    /* Set the border radius to 4 pixels */
+    border-radius: 4px;
+    /* Add a box shadow to create a raised effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* Add some margin around the card */
+    margin: 10px;
+    /* Add some padding inside the card */
+    padding: 20px;
+    /* Center all text horizontally */
+    text-align: center;
+    /* Set the width of the card to 300 pixels */
+    width: 300px;
+    /* Add a transition effect to all CSS properties with a duration of 0.3 seconds */
+    transition: all 0.3s ease-in-out;
+    /* Change the cursor to a pointer when hovering over the card */
+    cursor: pointer;
+}
+
+/* Style the image inside the card */
+.card img {
+    /* Make the image circular */
+    border-radius: 50%;
+    /* Set the height and width of the image to 200 pixels */
+    height: 200px;
+    width: 200px;
+    /* Add some margin below the image */
+    margin-bottom: 20px;
+}
+
+/* Style the heading inside the card */
+.card h1 {
+    /* Set the font size to 30 pixels */
+    font-size: 30px;
+    /* Add some margin below the heading */
+    margin-bottom: 10px;
+}
+
+/* Style the paragraph element with class "title" inside the card */
+.card p.title {
+    /* Set the text color to gray */
+    color: grey;
+    /* Set the font size to 20 pixels */
+    font-size: 20px;
+    /* Remove any margin above the paragraph element */
+    margin-top: 0;
+}
+
+/* This block hides the 'about me' text within a card */
+.card p.about-me {
+    display: none;
+    /* hides the 'about me' text */
+    font-size: 15px;
+    /* sets font size to 15px */
+    text-align: justify;
+    /* justifies text alignment */
+}
+
+/* This block centers and stylizes social media icons */
+.social-icons {
+    display: flex;
+    /* sets display property to flex */
+    justify-content: center;
+    /* centers the content */
+    margin-top: 20px;
+    /* sets top margin to 20px */
+}
+
+.social-icons a {
+    color: #333;
+    /* sets color to #333 */
+    font-size: 25px;
+    /* sets font size to 25px */
+    margin: 0 10px;
+    /* sets horizontal margin to 10px and vertical to 0 */
+}
+
+.social-icons a:hover {
+    color: #0099ff;
+    /* sets color to #0099ff on hover */
+}
+
+.fab {
+    text-align: center;
+    /* centers text */
+    width: 50px;
+    /* sets width to 50px */
+}
+
+/* This block stylizes the 'about me' card */
+.about-me {
+    border-radius: 10px;
+    /* sets border radius to 10px */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    /* adds box shadow */
+    padding: 20px;
+    /* sets padding to 20px */
+}
+
+/* This block styles the 'toggle' button on hover */
+.toggle-btn:hover {
+    background-color: #333;
+    /* sets background color to #333 on hover */
+    color: #fff;
+    /* sets text color to #fff on hover */
+}
