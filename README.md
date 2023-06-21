@@ -81,6 +81,13 @@ Welcome to the HTML/CSS/JS Magic Code Snippet Library! This library contains a c
     job title, a brief description about them, social media icons, and a button to toggle the visibility of the description. to use and modify by your needs.
     - [Profile Card v3](https://github.com/Satisfraction/html-css-js-magic/tree/main/Profile%20Card%20v3)
 
+26. **Product Card**: Demonstrates a simple product card that showcases a product along with its details. It also includes a modal that appears when the product 
+    is added to the Cart.
+    - [Product Card](https://github.com/Satisfraction/html-css-js-magic/tree/main/Product%20Card)
+
+27. **Showcase Reel**: Demonstrates a showcase reel that displays a collection of images.
+    - [Showcase Reel](https://github.com/Satisfraction/html-css-js-magic/tree/main/Showcase%20Reel)
+
 Feel free to explore each project's documentation to learn more about their features, usage instructions, dependencies, and licensing.
 
 ## License
