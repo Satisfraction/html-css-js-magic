@@ -1,0 +1,155 @@
+/* The .container class is used to center the card on the screen vertically and horizontally */
+.container {
+    display: flex;
+    /* Makes the container a flex container */
+    justify-content: center;
+    /* Centers the child elements horizontally */
+    align-items: center;
+    /* Centers the child elements vertically */
+    height: 100vh;
+    /* Sets the container height to 100% of the viewport height */
+}
+
+/* The .card class defines the styles for the card element */
+.card {
+    background-color: aqua;
+    /* Sets the background color of the card to aqua */
+    width: 300px;
+    /* Sets the width of the card to 300 pixels */
+    border: 1px solid #ccc;
+    /* Adds a 1 pixel solid border around the card */
+    border-radius: 5px;
+    /* Rounds the corners of the card */
+    padding: 10px;
+    /* Adds 10 pixels of padding to the inside of the card */
+    box-shadow: 3px 3px 5px #ccc;
+    /* Adds a 3 pixel by 3 pixel shadow with a blur radius of 5 pixels */
+}
+
+/* The .card img class defines the styles for the image inside the card */
+.card img {
+    width: 100%;
+    /* Sets the width of the image to 100% of the card width */
+    height: auto;
+    /* Keeps the aspect ratio of the image while scaling it to fit the card width */
+    border-radius: 5px;
+    /* Rounds the corners of the image */
+    margin-bottom: 10px;
+    /* Adds 10 pixels of margin to the bottom of the image */
+}
+
+/* The .card h3 class defines the styles for the heading inside the card */
+.card h3 {
+    font-size: 1.2em;
+    /* Sets the font size of the heading to 1.2em */
+    margin-bottom: 5px;
+    /* Adds 5 pixels of margin to the bottom of the heading */
+    text-align: center;
+    /* Centers the heading text */
+}
+
+/* The .card p class defines the styles for the paragraph inside the card */
+.card p {
+    font-size: 1em;
+    /* Sets the font size of the paragraph to 1em */
+    margin-bottom: 5px;
+    /* Adds 5 pixels of margin to the bottom of the paragraph */
+    text-align: center;
+    /* Centers the paragraph text */
+}
+
+/* The .card .price class defines the styles for the price inside the card */
+.card .price {
+    font-size: 1.5em;
+    /* Sets the font size of the price to 1.5em */
+    font-weight: bold;
+    /* Makes the price text bold */
+    color: #007bff;
+    /* Sets the color of the price text to blue */
+    margin-bottom: 10px;
+    /* Adds 10 pixels of margin to the bottom of the price */
+}
+
+/* This CSS code styles a button inside a card. */
+.card button {
+    /* Sets the background color of the button to blue. */
+    background-color: #007bff;
+    /* Sets the text color of the button to white. */
+    color: #fff;
+    /* Removes the border around the button. */
+    border: none;
+    /* Rounds the corners of the button. */
+    border-radius: 5px;
+    /* Adds some padding inside the button. */
+    padding: 10px;
+    /* Sets the cursor to a pointer when hovering over the button. */
+    cursor: pointer;
+    /* Displays the button as a block element. */
+    display: block;
+    /* Centers the button horizontally within its container. */
+    margin: 0 auto;
+}
+
+/* This CSS code changes the background color of the button when it is hovered over. */
+.card button:hover {
+    background-color: #0069d9;
+}
+
+/* This CSS code styles a modal dialog box. */
+.modal {
+    /* Hides the modal by default. */
+    display: none;
+    /* Positions the modal box. */
+    position: fixed;
+    /* Sets the stacking order of the modal. */
+    z-index: 1;
+    /* Sets the position of the left edge of the modal box. */
+    left: 0;
+    /* Sets the position of the top edge of the modal box. */
+    top: 0;
+    /* Sets the width of the modal to fill the entire viewport. */
+    width: 100%;
+    /* Sets the height of the modal to fill the entire viewport. */
+    height: 100%;
+    /* Enables scrolling within the modal box if needed. */
+    overflow: auto;
+    /* Sets the background color of the modal box to black with a low opacity. */
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Styles for the modal content box */
+.modal-content {
+    /* Set the background color to white */
+    background-color: #fefefe;
+    /* Margin of 15% from the top and auto margin on the left and right */
+    margin: 15% auto;
+    /* Padding of 20px for the modal content box */
+    padding: 20px;
+    /* Set the border to 1px solid gray */
+    border: 1px solid #888;
+    /* Set the width of the modal content box to 30% */
+    width: 30%;
+}
+
+/* Styles for the close button */
+.close {
+    /* Set the color of the close button to gray */
+    color: #aaa;
+    /* Float the close button to the right */
+    float: right;
+    /* Set the font size to 28px */
+    font-size: 28px;
+    /* Set the font weight to bold */
+    font-weight: bold;
+}
+
+/* Hover and focus styles for the close button */
+.close:hover,
+.close:focus {
+    /* Set the color of the close button to black */
+    color: black;
+    /* Remove text decoration */
+    text-decoration: none;
+    /* Set cursor to a pointer */
+    cursor: pointer;
+}
