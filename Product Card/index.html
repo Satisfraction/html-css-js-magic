@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prdouct Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- This is a container div that holds a product card and a modal -->
+    <div class="container">
+        <!-- This is a card that displays product information -->
+        <div class="card">
+            <!-- This is an image of the product -->
+            <img src="https://source.unsplash.com/random" alt="Product Image">
+            <!-- This is the name of the product -->
+            <h3>Product Name</h3>
+            <!-- This is a description of the product -->
+            <p>Description of the product.</p>
+            <!-- This is the price of the product -->
+            <p class="price">$19.99</p>
+            <!-- This is a button to add the product to the cart -->
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+        <!-- This is a modal that appears when the product is added to the cart -->
+        <div id="myModal" class="modal">
+            <!-- This is the content of the modal -->
+            <div class="modal-content">
+                <!-- This is a button to close the modal -->
+                <span class="close">&times;</span>
+                <!-- This text appears when the product is added to the cart -->
+                <p>Added to Cart</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
