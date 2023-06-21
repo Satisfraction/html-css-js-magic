@@ -1,0 +1,86 @@
+/* Set the font family and reset margin and padding for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the heading element */
+h1 {
+    /* Center align the text */
+    text-align: center;
+    /* Add top margin of 50px */
+    margin-top: 50px;
+    /* Set font size to 3 rem */
+    font-size: 3rem;
+}
+
+/* Style for the showcase section */
+#showcase {
+    /* Set position as relative */
+    position: relative;
+    /* Set height to 500px */
+    height: 500px;
+    /* Set the background color to a light gray */
+    background-color: #f2f2f2;
+}
+
+/* Style for the showcase image */
+#showcase img {
+    /* Set position as absolute */
+    position: absolute;
+    /* Center the image horizontally and vertically */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Set width and height to 300px */
+    width: 300px;
+    height: 300px;
+    /* Scale and crop the image to fit the container */
+    object-fit: cover;
+    /* Set initial opacity to 1 and add a transition effect */
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Hide images with the class 'hidden' */
+#showcase img.hidden {
+    display: none;
+}
+
+/* Style for the showcase image on hover */
+#showcase img:hover {
+    /* Lower opacity to 0.5 */
+    opacity: 0.5;
+}
+
+/* Style for the previous and next buttons */
+#prev-btn,
+#next-btn {
+    /* Set position as absolute */
+    position: absolute;
+    top: 50%;
+    /* Center the buttons vertically */
+    transform: translateY(-50%);
+    /* Set padding to 10px and remove border */
+    padding: 10px;
+    border: none;
+    /* Set background color to dark gray and text color to white */
+    background-color: #333;
+    color: #fff;
+    /* Set font size to 1rem and change cursor to pointer on hover */
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* Style for the previous button */
+#prev-btn {
+    /* Set position to left 20px */
+    left: 20px;
+}
+
+/* Style for the next button */
+#next-btn {
+    /* Set position to right 20px */
+    right: 20px;
+}
