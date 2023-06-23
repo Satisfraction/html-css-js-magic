@@ -16,7 +16,7 @@ To use this footer in your HTML project, follow the instructions below:
 
 ## Structure
 
-The footer is structured as follows:
+The footer is structured as follows
 
     - The heading is displayed using the <h1> element and is centered within the footer.
     - The navigation links are contained within a <nav> element and displayed as an unordered list (<ul>) with list items (<li>). Each - link is represented by an anchor (<a>) element.
