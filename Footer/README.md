@@ -18,18 +18,18 @@ To use this footer in your HTML project, follow the instructions below:
 
 The footer is structured as follows
 
-    - The heading is displayed using the <h1> element and is centered within the footer.
-    - The navigation links are contained within a <nav> element and displayed as an unordered list (<ul>) with list items (<li>). Each - link is represented by an anchor (<a>) element.
-    - The credits section is displayed using <p> elements and includes the copyright information and creator credits.
-        Styling
-    - The footer is styled using the CSS code in the style.css file. Here are some key styles applied:
+ - The heading is displayed using the <h1> element and is centered within the footer.
+ - The navigation links are contained within a <nav> element and displayed as an unordered list (<ul>) with list items (<li>). Each - link is represented by an anchor (<a>) element.
+ - The credits section is displayed using <p> elements and includes the copyright information and creator credits.
+     Styling
+ - The footer is styled using the CSS code in the style.css file. Here are some key styles applied:
 
-    - The heading (<h1>) is centered and has a red text color.
-    - The footer element is given a light gray background color and 20 pixels of padding.
-    - The navigation links are displayed as a horizontal list with a margin of 10 pixels between each link.
-    - The credits section is displayed as inline-block, allowing it to appear side-by-side within the container.
-    - The links have a dark gray text color and no underline.
-    - Feel free to customize the styles by modifying the CSS code in the style.css file. You can change colors, font styles,    alignments, and other properties to match your design preferences.
+ - The heading (<h1>) is centered and has a red text color.
+ - The footer element is given a light gray background color and 20 pixels of padding.
+ - The navigation links are displayed as a horizontal list with a margin of 10 pixels between each link.
+ - The credits section is displayed as inline-block, allowing it to appear side-by-side within the container.
+ - The links have a dark gray text color and no underline.
+ - Feel free to customize the styles by modifying the CSS code in the style.css file. You can change colors, font styles,    alignments, and other properties to match your design preferences.
 
 ## Dependencies
 
