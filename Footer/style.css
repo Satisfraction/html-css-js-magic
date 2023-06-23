@@ -1,0 +1,59 @@
+/* Styles for the heading element */
+h1 {
+    text-align: center;
+    /* Center aligns the text in the heading element */
+    color: red;
+    /* Sets the text color to red */
+}
+
+/* Styles for the footer element */
+footer {
+    background-color: #f2f2f2;
+    /* Sets the background color to light gray */
+    padding: 20px;
+    /* Adds 20 pixels of padding to the footer element */
+    text-align: center;
+    /* Center aligns the text in the footer element */
+}
+
+/* Styles for the container within the footer element */
+.footer-container {
+    display: flex;
+    /* Turns on flexbox display for the container */
+    justify-content: space-between;
+    /* Distributes the items in the container evenly */
+    align-items: center;
+    /* Centers the items vertically in the container */
+}
+
+/* Styles for the credits element within the container */
+.credits {
+    display: inline-block;
+    /* Sets the display to inline block */
+}
+
+/* Styles for the navigation unordered list */
+nav ul {
+    list-style: none;
+    /* Removes the default bullets from the unordered list */
+    margin: 0;
+    /* Removes the margin to the left of the unordered list */
+    padding: 0;
+    /* Removes the default padding from the unordered list */
+    display: flex;
+    /* Turns on flexbox display for the unordered list */
+}
+
+/* Styles for the navigation list items */
+nav li {
+    margin: 0 10px;
+    /* Adds a margin of 10 pixels to the left and right of each list item */
+}
+
+/* Styles for the navigation links */
+nav a {
+    color: #333;
+    /* Sets the link text color to dark gray */
+    text-decoration: none;
+    /* Removes the default underline from the links */
+}
