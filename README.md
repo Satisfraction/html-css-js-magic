@@ -88,13 +88,13 @@ Welcome to the HTML/CSS/JS Magic Code Snippet Library! This library contains a c
     - [Showcase Reel](https://github.com/Satisfraction/html-css-js-magic/tree/main/Showcase%20Reel)
 
 28. **Loading Animations**: Demonstrates various loading animations created using HTML and CSS.
-    - [Profile Card](https://github.com/Satisfraction/html-css-js-magic/tree/main/Loading%20Animations)
+    - [Loading Animations](https://github.com/Satisfraction/html-css-js-magic/tree/main/Loading%20Animations)
 
 29. **Navbar No2**: Showcases a simple HTML and CSS implementation of a navbar.
-    - [Profile Card](https://github.com/Satisfraction/html-css-js-magic/tree/main/Navbar%20No2)
+    - [Navbar No2](https://github.com/Satisfraction/html-css-js-magic/tree/main/Navbar%20No2)
 
 30. **Footer**: Showcases a simple footer implementation using HTML and CSS.
-    - [Profile Card](https://github.com/Satisfraction/html-css-js-magic/tree/main/Footer)
+    - [Footer](https://github.com/Satisfraction/html-css-js-magic/tree/main/Footer)
 
 Feel free to explore each project's documentation to learn more about their features, usage instructions, dependencies, and licensing.
 
