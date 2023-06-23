@@ -1,0 +1,71 @@
+/* Setup the styling for the navbar */
+.navbar {
+  /* Set the background color to a dark gray */
+  background-color: #333;
+  /* Position the navbar at the top of the screen and make it fixed so it stays in place */
+  position: fixed;
+  top: 0;
+  /* Make the navbar take up the entire width of the screen */
+  width: 100%;
+  /* Center the items horizontally and vertically within the navbar */
+  justify-content: center;
+  align-items: center;
+  /* Display the navbar as a flex container */
+  display: flex;
+  /* Add a rounded border to the navbar */
+  border-radius: 25%;
+  /* Add a small margin around the navbar */
+  margin: 5px;
+  /* Add a shadow effect to the navbar */
+  box-shadow: #333 0px 0px 10px;
+}
+
+/* Setup the styling for the links within the navbar */
+.navbar a {
+  /* Display the link as an inline-block element */
+  display: inline-block;
+  /* Set the text color to white */
+  color: white;
+  /* Center the text within the link */
+  text-align: center;
+  /* Add padding to the top and bottom of the link and left and right padding */
+  padding: 14px 16px;
+  /* Remove the underline from the link */
+  text-decoration: none;
+  /* Set the font size to 17 pixels */
+  font-size: 17px;
+  /* Add a gold-colored line at the bottom of the link */
+  border-bottom: 2px solid #d4af37;
+  /* Set the background color to a dark gray */
+  background-color: #4c4c4c;
+  /* Add a rounded border to the link */
+  border-radius: 20px;
+  /* Add a 1 pixel border around the link */
+  border: 1px solid #999;
+  /* Add a shadow effect to the link */
+  box-shadow: 0px 0px 5px #999;
+}
+
+/* Setup the styling for the span elements within the links */
+.navbar a span {
+  /* Add a margin to the right of the span element */
+  margin-right: 5px;
+}
+
+/* Setup the styling for the hover state of the links */
+.navbar a:hover {
+  /* Set the background color to a light gray */
+  background-color: #ddd;
+  /* Set the text color to black */
+  color: black;
+  /* Change the gold-colored line at the bottom of the link to a brighter gold color */
+  border-bottom: 2px solid #ffd700;
+}
+
+/* Setup the styling for the active state of the links */
+.active {
+  /* Set the background color to a green color */
+  background-color: #4CAF50;
+  /* Set the text color to white */
+  color: white;
+}
