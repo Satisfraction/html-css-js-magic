@@ -96,6 +96,12 @@ Welcome to the HTML/CSS/JS Magic Code Snippet Library! This library contains a c
 30. **Footer**: Showcases a simple footer implementation using HTML and CSS.
     - [Footer](https://github.com/Satisfraction/html-css-js-magic/tree/main/Footer)
 
+31. **Navbar with Darkmode Switch**: Showcase of a navigation bar with a dark mode switch. It allows users to toggle between light and dark mode.
+    - [Navbar with Darkmode Switch](https://github.com/Satisfraction/html-css-js-magic/tree/main/Navbar%20with%20Darkmode%20Switch)
+
+32. **Button Styles Showcase**: Showcase to demonstrate a collection of buttons with different styles and functionalities.
+    - [Button Styles Showcase](https://github.com/Satisfraction/html-css-js-magic/tree/main/Button%20Styles%20Showcase)
+
 Feel free to explore each project's documentation to learn more about their features, usage instructions, dependencies, and licensing.
 
 ## License
