@@ -1,0 +1,117 @@
+/* Set the background color of the body to a light gray. */
+body {
+    background-color: #f5f5f5;
+}
+
+/* Style the navigation bar to be a flex container with space between items, a green background, and padding. */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #1cc43b;
+    padding: 0 20px;
+}
+
+/* Set the list style of an unordered list to none, and remove its margin and padding. */
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Add a margin to the left of any list item that isn't the first to create spacing. */
+li + li {
+    margin-left: 20px;
+}
+
+/* Style links to have no text decoration and a dark gray color. */
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Set the position of the switch container to relative. */
+.switch-container {
+    position: relative;
+}
+
+/* Style the label of the switch container to be positioned to the right, center vertically, and have a gray background and a round shape. */
+.switch-container label {
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+ /* The following code block styles a checkbox switch */
+.switch-container label:before {
+    /* Create an empty rectangle before the label */
+    content: "";
+    /* Set the position of the rectangle */
+    position: absolute;
+    /* Set the distance between the top edge of the rectangle and the top edge of the container */
+    top: 50%;
+    /* Set the distance between the left edge of the rectangle and the left edge of the container */
+    left: 5px;
+    /* Move the rectangle up by 50% of its height, so that it is vertically centered */
+    transform: translateY(-50%);
+    /* Set the width of the rectangle */
+    width: 20px;
+    /* Set the height of the rectangle */
+    height: 20px;
+    /* Set the background color of the rectangle */
+    background-color: #fff;
+    /* Set the border radius of the rectangle to make it circular */
+    border-radius: 50%;
+    /* Set the transition animation for the rectangle */
+    transition: all 0.3s;
+  }
+  
+  /* Hide the checkbox */
+  input[type="checkbox"] {
+    display: none;
+  }
+  
+  /* Style the label when the checkbox is checked */
+  input[type="checkbox"]:checked + label {
+    /* Set the background color of the label */
+    background-color: #555;
+  }
+  
+  /* Style the rectangle when the checkbox is checked */
+  input[type="checkbox"]:checked + label:before {
+    /* Move the rectangle to the right by 20px */
+    transform: translateX(20px) translateY(-50%);
+    /* Set the background color of the rectangle */
+    background-color: #000;
+  }
+  
+  /* Style the dark mode */
+  .dark-mode {
+    /* Set the background color of the container */
+    background-color: #222;
+    /* Set the text color of the container */
+    color: #fff;
+  }
+  
+  /* Style the navigation bar in dark mode */
+  .dark-mode nav {
+    /* Set the background color of the navigation bar */
+    background-color: #1cc43b;
+    /* Set the text color of the navigation bar */
+    color: #fff;
+  }
+  
+  /* Style the links in dark mode */
+  .dark-mode a {
+    /* Set the text color of the links */
+    color: #fff;
+  }
+  
