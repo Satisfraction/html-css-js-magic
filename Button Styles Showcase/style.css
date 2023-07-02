@@ -1,0 +1,68 @@
+#button1 {
+    background-color: red;      /* Set the background color to red */
+    color: white;              /* Set the text color to white */
+    border: 2px solid crimson;  /* Set the border to 2px solid crimson */
+}
+
+#button2 {
+    background-color: green;    /* Set the background color to green */
+    color: white;              /* Set the text color to white */
+    border: 2px solid darkgreen;    /* Set the border to 2px solid darkgreen */
+}
+
+#button3 {
+    background-color: blue;    /* Set the background color to blue */
+    color: white;              /* Set the text color to white */
+    border: 2px solid darkblue;        /* Set the border to 2px solid darkblue */
+}
+
+#button4 {
+    background-color: yellow;       /* Set the background color to yellow */
+    color: black;                  /* Set the text color to black */
+    border: 2px solid gold;         /* Set the border to 2px solid gold */
+}
+
+#button5 {
+    background-color: orange;        /* Set the background color to orange */
+    color: white;                  /* Set the text color to white */
+    border: 2px solid darkorange;    /* Set the border to 2px solid darkorange */
+}
+
+#button6 {
+    background-color: purple;        /* Set the background color to purple */
+    color: white;                  /* Set the text color to white */
+    border: 2px solid darkmagenta;    /* Set the border to 2px solid darkmagenta */
+}
+
+#button7 {
+    background-color: pink;        /* Set the background color to pink */
+    color: black;                  /* Set the text color to black */
+    border: 2px solid darkviolet;    /* Set the border to 2px solid darkviolet */
+}
+
+#button8 {
+    background-color: brown;        /* Set the background color to brown */
+    color: white;                  /* Set the text color to white */
+    border: 2px solid darkred;    /* Set the border to 2px solid darkred */
+}
+
+#button9 {
+    background-color: gray;        /* Set the background color to gray */
+    color: white;                  /* Set the text color to white */
+    border: 2px solid darkgrey;    /* Set the border to 2px solid darkgrey */
+}
+
+#button10 {
+    background-color: teal;        /* Set the background color to teal */
+    color: white;                  /* Set the text color to white */
+    border: 2px solid darkcyan;        /* Set the border to 2px solid darkcyan */
+}
+
+.button {
+    padding: 10px 20px;    /* Set the padding to 10px 20px */
+    font-size: 30px;      /* Set the font-size to 30px */
+}
+
+.button-row {
+    margin-bottom: 20px;    /* Set the margin-bottom to 20px */
+}
