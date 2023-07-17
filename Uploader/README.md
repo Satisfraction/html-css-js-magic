@@ -2,6 +2,10 @@
 
 This is a simple HTML, CSS, and JavaScript code snippet that creates an uploader component. The uploader allows users to select a file and upload it to the server. It includes a file input field, a file name display, an upload button, and an upload progress bar.
 
+## Preview
+
+![Preview](preview.png)
+
 ## Usage
 
 To use this uploader component, follow these steps:
