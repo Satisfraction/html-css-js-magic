@@ -2,6 +2,10 @@
 
 This code demonstrates a simple image preview functionality. When a user selects an image file using the file input, the selected image is displayed in a preview container on the web page.
 
+## Preview
+
+![Preview](preview.png)
+
 ## Usage
 
 To use this code, follow the instructions below:
