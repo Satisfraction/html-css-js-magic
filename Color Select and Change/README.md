@@ -2,6 +2,10 @@
 
 This code provides a simple HTML, CSS, and JavaScript implementation for selecting and changing the background color of a `<div>` element based on the selected option from a `<select>` element.
 
+## Preview
+
+![Preview](preview.png)
+
 ## Usage
 
 To use this code, follow the instructions below:
