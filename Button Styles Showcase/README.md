@@ -2,6 +2,10 @@
 
 This project demonstrates a collection of buttons with different styles and functionalities. Each button has a unique color and border style, and clicking on them triggers various actions.
 
+## Preview
+
+![Preview](preview.png)
+
 ## Prerequisites
 
 To view the project, you only need a modern web browser.
