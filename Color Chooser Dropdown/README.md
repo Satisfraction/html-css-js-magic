@@ -2,6 +2,10 @@
 
 This code snippet demonstrates a color chooser dropdown implemented using HTML, CSS, and JavaScript.
 
+## Preview
+
+![Preview](preview.png)
+
 ## Usage
 
 1. Copy the HTML code and paste it into your HTML file.
