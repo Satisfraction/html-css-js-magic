@@ -2,6 +2,10 @@
 
 This project demonstrates various loading animations created using HTML and CSS. Each animation is displayed within a grid container, showcasing different styles and effects.
 
+## Preview
+
+![Preview](preview.png)
+
 ## Usage
 
 To use these loading animations in your HTML project, follow the instructions below:
