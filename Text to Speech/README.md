@@ -2,6 +2,10 @@
 
 This project allows users to convert text into speech using the browser's Text-to-Speech functionality.
 
+## Preview
+
+![Preview](preview.png)
+
 ## Usage
 
 1. Create an HTML file and name it, for example, `index.html`.
