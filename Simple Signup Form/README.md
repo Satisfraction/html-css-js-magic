@@ -2,6 +2,10 @@
 
 This project showcases a simple signup form implemented using HTML and CSS.
 
+## Preview
+
+![Preview](preview.png)
+
 ## Usage
 
 1. Create an HTML file and name it, for example, `index.html`.
