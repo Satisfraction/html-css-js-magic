@@ -2,6 +2,10 @@
 
 This project is a showcase reel that displays a collection of images. It allows users to navigate through the images using the "Prev" and "Next" buttons. The project is implemented using HTML, CSS, and JavaScript.
 
+## Preview
+
+![Preview](preview.png)
+
 
 ## Instructions
 
