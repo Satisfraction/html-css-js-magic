@@ -2,6 +2,10 @@
 
 This is a simple footer implementation using HTML and CSS. It consists of a heading, navigation links, and credits section.
 
+## Preview
+
+![Preview](preview.png)
+
 ## Usage
 
 To use this footer in your HTML project, follow the instructions below:
