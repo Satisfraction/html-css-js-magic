@@ -2,6 +2,10 @@
 
 This code represents a simple music player that allows you to play audio files, control the volume, and select files to play.
 
+## Preview
+
+![Preview](preview.png)
+
 ## Usage
 
 To use this code, follow the instructions below:
