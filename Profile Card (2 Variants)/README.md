@@ -2,6 +2,10 @@
 
 This project showcases two variants of profile cards using HTML and CSS.
 
+## Preview
+
+![Preview](preview.png)
+
 ## Usage
 
 1. Clone the repository or download the HTML and CSS files.
