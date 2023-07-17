@@ -2,6 +2,10 @@
 
 This code demonstrates a fade-in effect on a box element when a user clicks on an input field. The box starts with an initial opacity of 0 and gradually fades in to full visibility over a specified duration.
 
+## Preview
+
+![Preview](preview.png)
+
 ## Usage
 
 To use this code, follow the instructions below:
