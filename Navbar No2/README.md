@@ -2,6 +2,10 @@
 
 This project is a simple HTML and CSS implementation of a navbar. The navbar is fixed at the top of the screen and contains links to different sections of the website.
 
+## Preview
+
+![Preview](preview.png)
+
 ## Usage
 
 To use this navbar in your HTML project, follow the instructions below:
