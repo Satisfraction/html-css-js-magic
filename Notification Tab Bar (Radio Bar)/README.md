@@ -2,6 +2,10 @@
 
 This is a simple HTML and CSS code snippet that showcases the implementation of a radio bar with tabs. The radio bar allows users to switch between different tab options by selecting the corresponding radio button.
 
+## Preview
+
+![Preview](preview.png)
+
 ## HTML Structure
 
 The HTML structure consists of a container `<div>` that holds the entire radio bar. Within the container, there is a `<div>` element with the class "radio-bar" that represents the radio bar itself. Inside the radio bar, there are radio input elements (`<input type="radio">`) and labels (`<label>`) for each tab option. Additionally, there is a glider element (`<span class="glider">`) that slides over to indicate the selected tab.
