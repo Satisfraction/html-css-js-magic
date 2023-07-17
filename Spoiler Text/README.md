@@ -3,6 +3,10 @@
 This code snippet creates a paragraph with a spoiler effect. 
 When the user hovers over the paragraph, the text color changes, and a gradient background reveals the hidden content.
 
+## Preview
+
+![Preview](preview.png)
+
 ## Usage
 
 1. Copy the HTML code and paste it into your HTML file.
