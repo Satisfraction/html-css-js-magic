@@ -2,6 +2,10 @@
 
 This is a simple HTML and CSS code that creates a profile card. The profile card displays a profile picture, name, title, and some additional information about the person. It also includes social media icons and a toggle button to show or hide the "About Me" section.
 
+## Preview
+
+![Preview](preview.png)
+
 ## Technologies Used
 
 - HTML
