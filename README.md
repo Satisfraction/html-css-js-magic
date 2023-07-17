@@ -102,6 +102,9 @@ Welcome to the HTML/CSS/JS Magic Code Snippet Library! This library contains a c
 32. **Button Styles Showcase**: Showcase to demonstrate a collection of buttons with different styles and functionalities.
     - [Button Styles Showcase](https://github.com/Satisfraction/html-css-js-magic/tree/main/Button%20Styles%20Showcase)
 
+33. **Side Navbar 2**: Demonstrates a simple side navigation bar with a cool animation effect using HTML, CSS, and JavaScript.
+    - [Side Navbar 2](https://github.com/Satisfraction/html-css-js-magic/tree/main/Side%20Navbar%202)
+
 Feel free to explore each project's documentation to learn more about their features, usage instructions, dependencies, and licensing.
 
 ## License
