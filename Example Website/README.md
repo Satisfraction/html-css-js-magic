@@ -2,6 +2,10 @@
 
 This code snippet represents a simple website layout with a header, main content, and footer.
 
+## Preview
+
+![Preview](preview.png)
+
 ## Usage
 
 1. Copy the HTML code and paste it into your HTML file.
