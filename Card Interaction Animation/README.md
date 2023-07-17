@@ -2,6 +2,10 @@
 
 This code provides a simple HTML and CSS implementation for creating a card interaction animation. When you hover over the cards, they will change their appearance with a blur effect and scale animation.
 
+## Preview
+
+![Preview](preview.png)
+
 ## Usage
 
 To use this code, follow the instructions below:
