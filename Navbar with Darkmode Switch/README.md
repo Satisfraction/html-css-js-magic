@@ -2,6 +2,10 @@
 
 This is a simple HTML and CSS implementation of a navigation bar with a dark mode switch. It allows users to toggle between light and dark mode.
 
+## Preview
+
+![Preview](preview.png)
+
 ## Usage
 
 To use this navbar with a dark mode switch in your HTML project, follow the instructions below:
