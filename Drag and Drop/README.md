@@ -2,6 +2,10 @@
 
 This code implements a simple drag and drop functionality using HTML, CSS, and JavaScript. It allows you to drag an image and drop it into a designated box.
 
+## Preview
+
+![Preview](preview.png)
+
 ## Usage
 
 To use this code, follow the instructions below:
