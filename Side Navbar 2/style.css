@@ -1,0 +1,43 @@
+/* Defines the styling for the side navigation bar */
+.sidenav {
+    height: 100%; /* Sets the height of the side navigation bar to the full height of the container */
+    width: 200px; /* Sets the width of the side navigation bar to 200 pixels */
+    position: fixed; /* Sets the position of the side navigation bar to fixed, so it remains in place even when scrolling */
+    z-index: 1; /* Sets the stacking order of the side navigation bar */
+    top: 0; /* Sets the distance from the top edge of the container to the top edge of the side navigation bar */
+    left: 0; /* Sets the distance from the left edge of the container to the left edge of the side navigation bar */
+    background-color: #111; /* Sets the background color of the side navigation bar to a dark color */
+  }
+  
+  /* Defines the styling for the links inside the side navigation bar */
+  .sidenav a {
+    padding: 6px 8px 6px 16px; /* Sets the padding around the link text */
+    text-decoration: none; /* Removes the underline from the link text */
+    font-size: 25px; /* Sets the font size of the link text to 25 pixels */
+    color: #818181; /* Sets the color of the link text to a light gray */
+    display: block; /* Displays the links as block elements */
+  }
+  
+  /* Defines the styling for the main content area */
+  .main {
+    margin-left: 200px; /* Sets the left margin of the main content area to 200 pixels, creating space for the side navigation bar */
+  }
+  
+  /* Defines a cool animation effect */
+  .cool-effect {
+    animation: coolAnimation 0.5s ease-in-out infinite; /* Applies the coolAnimation animation to elements with the cool-effect class */
+  }
+  
+  /* Defines the keyframes for the cool animation */
+  @keyframes coolAnimation {
+    0% {
+      transform: rotate(0deg); /* Specifies the initial state of the animation: no rotation */
+    }
+    50% {
+      transform: rotate(360deg); /* Specifies the intermediate state of the animation: 360 degrees rotation */
+    }
+    100% {
+      transform: rotate(0deg); /* Specifies the final state of the animation: no rotation */
+    }
+  }
+  
