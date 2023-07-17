@@ -2,6 +2,10 @@
 
 This is a simple HTML, CSS, and JavaScript code snippet that demonstrates the implementation of a navbar with icons. The navbar is fixed at the top of the page and contains a list of links with corresponding icons.
 
+## Preview
+
+![Preview](preview.png)
+
 ## HTML Structure
 
 The HTML structure consists of a `<nav>` element with an unordered list (`<ul>`) inside. Each list item (`<li>`) contains an anchor (`<a>`) element representing a link, and a `<span>` element with the class "icon" that displays an icon.
