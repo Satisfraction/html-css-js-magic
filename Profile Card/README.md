@@ -2,6 +2,10 @@
 
 This is a simple HTML and CSS code snippet that creates a profile card component. The profile card consists of a front side and a back side. When the user hovers over the front side of the card, the profile picture scales up and additional information is displayed. When the user hovers over the back side of the card, it slides into view to reveal a list of contact information.
 
+## Preview
+
+![Preview](preview.png)
+
 
 ## Usage
 
