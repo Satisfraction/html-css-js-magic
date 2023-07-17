@@ -2,6 +2,10 @@
 
 This is a simple HTML and CSS code that creates a card hover effect. The effect enhances the visual appearance of cards by animating certain elements when the user hovers over them. It can be used to add interactivity and engagement to your web pages.
 
+## Preview
+
+![Preview](preview.png)
+
 ## Technologies Used
 
 - HTML
