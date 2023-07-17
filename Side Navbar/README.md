@@ -2,6 +2,10 @@
 
 This project demonstrates a side navbar implementation using HTML, CSS, and JavaScript.
 
+## Preview
+
+![Preview](preview.png)
+
 ## Usage
 
 1. Create an HTML file and name it, for example, `index.html`.
