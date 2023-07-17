@@ -2,6 +2,10 @@
 
 This project creates a typing animation effect where text appears as if it is being typed out on the screen.
 
+## Preview
+
+![Preview](preview.png)
+
 ## Usage
 
 1. Create an HTML file and name it, for example, `index.html`.
