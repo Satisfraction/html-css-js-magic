@@ -2,6 +2,10 @@
 
 This is a simple HTML and CSS code that creates a morph spinner. The spinner is a visual element that animates between two shapes and colors, creating a loading effect. It is commonly used to indicate that content is being loaded or processed.
 
+## Preview
+
+![Preview](preview.png)
+
 ## Technologies Used
 
 - HTML
