@@ -2,6 +2,10 @@
 
 This code provides a simple HTML, CSS, and JavaScript implementation for selecting an image file and displaying it on a web page.
 
+## Preview
+
+![Preview](preview.png)
+
 ## Prerequisites
 
 Before running the code, ensure that you have the following:
