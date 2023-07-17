@@ -2,6 +2,10 @@
 
 This project demonstrates how to rotate text on mouse hover using HTML and CSS.
 
+## Preview
+
+![Preview](preview.png)
+
 ## Usage
 
 1. Create an HTML file and name it, for example, `index.html`.
