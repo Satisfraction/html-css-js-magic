@@ -2,6 +2,10 @@
 
 This project is a simple product card that showcases a product along with its details. It also includes a modal that appears when the product is added to the cart. The project is implemented using HTML, CSS, and JavaScript.
 
+## Preview
+
+![Preview](preview.png)
+
 ## Instructions
 
 To use this project, follow the instructions below:
