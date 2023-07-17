@@ -2,6 +2,10 @@
 
 This code creates a simple HTML page that displays a "Disco Effect" title with animated text effects. The text color changes periodically, creating a disco-like effect.
 
+## Preview
+
+![Preview](preview.png)
+
 ## Usage
 
 To use this code, follow the instructions below:
